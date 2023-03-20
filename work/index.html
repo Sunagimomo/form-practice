@@ -151,7 +151,7 @@
             <label class="label__text" for="address">
               住所 <span class="required">※</span>
             </label>
-            <input class="input__area" id="address" type="address" autocomplete="address-level1" required>
+            <input class="input__area" id="address" type="text" required>
           </div>
           <div class="label__section">
             <label class="label__text" for="tel">
@@ -164,11 +164,15 @@
           <h3 class="content__title">購読情報</h3>
           <div class="label__section subscription__unit">
             <input type="checkbox" name="subscription" value="email-magazine" id="email__magazine">
-            <label class="label__text subscription__label" for="email__magazine">メールマガジン</label>
+            <label class="label__text subscription__label" for="email__magazine">
+              メールマガジン
+            </label>
           </div>
           <div class="label__section subscription__unit">
             <input type="checkbox" name="subscription" value="coupon" id="coupon">
-            <label class="label__text subscription__label" for="coupon">クーポン</label>
+            <label class="label__text subscription__label" for="coupon">
+              クーポン
+            </label>
           </div>
         </div>
         <div class="submit__content">
